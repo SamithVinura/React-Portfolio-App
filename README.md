@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Live Server
 
-https://samithvinuraportfolio.netlify.app/
+https://samithvinuraportfolio.web.app/
 
 ## Available Scripts
 
