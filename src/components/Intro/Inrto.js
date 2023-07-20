@@ -22,9 +22,9 @@ function Inrto() {
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hi! I am</span>
           <span>Samith Vinura</span>
-          <span>
+          <span style={{ fontSize:'1.2rem'}}>
             I am Google Certified UI/UX dsidgner and front end developer with high level of experience in web designing and
             development, producting the quality work
           </span>
