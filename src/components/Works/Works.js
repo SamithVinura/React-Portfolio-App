@@ -19,12 +19,6 @@ function Works() {
         <span>Brands & Clients</span>
         <span>
           I have 4+ years working experience with fiverr
-          <br />
-          I have 2+ years working experience with Upwork
-          <br />
-          I have 1+ years working experience with Amazon
-          <br />
-          I have 1+ years working experience with Facebook
         </span>
         
           <button className="button s-button">Hire me</button>
@@ -40,19 +34,19 @@ function Works() {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle">
           <div className="w-secCircle">
-          <img src={Upwork} alt="" />
+          <img alt="" />
+          </div>
+          <div className="w-secCircle">
+          <img alt="" />
           </div>
           <div className="w-secCircle">
           <img src={Fiverr} alt="" />
           </div>
           <div className="w-secCircle">
-          <img src={Amazon} alt="" />
+          <img  alt="" />
           </div>
           <div className="w-secCircle">
-          <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
-          <img src={Facebook} alt="" />
+          <img alt="" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

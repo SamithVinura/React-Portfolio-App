@@ -4,7 +4,28 @@
     margin-top: 6rem;
     
 }
-
+.x-button{
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 0px 4px 3px rgba(251, 161, 40, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  width: 12rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+.x-button:hover{
+  background: #ffc400 ;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+.link-class{
+  text-decoration: none;
+  color: white;
+}
 .i-left {
     display: flex;
     position: relative;

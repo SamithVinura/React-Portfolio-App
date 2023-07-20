@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -21,21 +21,38 @@ function Services() {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Services</span>
         <span>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I am providing best and quality services for you.
           <br />
-          ispum is simpley dummy text of printing
+          <ul>
+            <li>
+              UX Services
+              <ul>
+                <li>UX Research</li>
+                <li>Wireframes and low-fidelity prototypes</li>
+                <li>High-fidelity designs and prototypes</li>
+              </ul>
+            </li>
+            <li>
+              Front-end Services
+              <ul>
+                <li>Responsive Web Front-end design with React</li>
+                <li>Responsive Web Front-end design with Angular</li>
+              </ul>
+            </li>
+          </ul>
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
-        
+
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       <div className="cards">
         <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "13rem" }}
-          transition={transition}>
+          transition={transition}
+        >
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
@@ -45,18 +62,19 @@ function Services() {
         <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
-          transition={transition}>
+          transition={transition}
+        >
           <Card
             emoji={Glasses}
             heading={"Developer"}
             detail={"Html, Css, JavaScript, React, Nodejs, Angular"}
           />
-          
         </motion.div>
         <motion.div
           initial={{ top: "14rem", left: "5rem" }}
           whileInView={{ left: "30rem" }}
-          transition={transition}>
+          transition={transition}
+        >
           <Card
             emoji={Humble}
             heading={"UI/UX"}
@@ -65,8 +83,8 @@ function Services() {
             }
             color="rgba(252, 166, 31, 0.45)"
           />
-          </motion.div>
-          <div
+        </motion.div>
+        <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
         ></div>

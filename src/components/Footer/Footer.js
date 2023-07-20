@@ -9,11 +9,13 @@ function Footer() {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>samithvinurakck119@gmail.com@gmail.com</span>
+        <span>vinuraaberathne@gmail.com@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+          <a><Insta color="white" size={"3rem"} /></a>
+          <a><Facebook color="white" size={"3rem"} /></a>
+          <a ><Gitub color="white" size={"3rem"} /></a>
+          
+          
         </div>
       </div>
     </div>
@@ -21,3 +23,4 @@ function Footer() {
 }
 
 export default Footer
+

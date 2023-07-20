@@ -13,6 +13,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 function Inrto() {
   const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
@@ -24,15 +25,25 @@ function Inrto() {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Samith Vinura</span>
           <span>
-            UI/UX deveoper with high level of experience in web designing and
+            I am Google Certified UI/UX dsidgner and front end developer with high level of experience in web designing and
             development, producting the quality work
           </span>
         </div>
-        <button className="button i-button">Hire me</button>
+        <div>
+        <Link to="contact"><button className="button i-button">Hire me</button></Link>
+        <button className="x-button" ><a className="link-class" href="https://www.coursera.org/account/accomplishments/professional-cert/KNYWWM3CTXNK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" >View Certification</a></button>
+        </div>
+        
         <div className="i-icons">
-          <img src={Github} alt="Github" />
+          <a href="https://github.com/SamithVinura">
+          <img src={Github} alt="Github" lin/>
+          </a>
+          <a href="https://www.linkedin.com/in/samith-vinura-40a773195/">
           <img src={LinkedIn} alt="LinkedIn" />
+          </a>
+          <a >
           <img src={Instagram} alt="Instagram" />
+          </a>
         </div>
       </div>
       <div className="i-right">
@@ -56,7 +67,7 @@ function Inrto() {
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div">
-          <FloatingDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatingDiv img={thumbup} text1="Google Certified" text2="UX Designer" />
         </motion.div>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

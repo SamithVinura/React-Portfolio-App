@@ -1,8 +1,7 @@
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 80vh;
-    margin-top: 4rem;
+    height: 60vh;
       /* scroll */
   padding-top: 3rem;
 }
