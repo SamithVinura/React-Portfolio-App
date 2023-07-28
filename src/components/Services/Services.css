@@ -1,10 +1,10 @@
 .services {
       
     display: flex;
-    height: 62vh;
-    margin-bottom: 8rem;
+   /*  height: 62vh; */
+    margin-bottom: 6rem;
     /* scroll view */
-    padding-top: 3rem;
+    
   }
   /* left side */
   .awesome {
