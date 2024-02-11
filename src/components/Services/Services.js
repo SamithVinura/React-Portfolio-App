@@ -41,7 +41,7 @@ function Services() {
             </li>
           </ul>
         </span>
-        <a href={Resume} download>
+        <a href="https://drive.google.com/file/d/1RriLFryUmcrDCOZxFuAYN0BgSw9c8fwd/view?usp=drive_link" download>
           <button className="button s-button">Download CV</button>
         </a>
 
@@ -67,7 +67,7 @@ function Services() {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Angular"}
+            detail={"Html, CSS/SCSS, JavaScript, Typescript, ReactJS, NodeJS, Angular"}
           />
         </motion.div>
         <motion.div
@@ -79,7 +79,7 @@ function Services() {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "User Research, Usability, Wireframing, Prototyping, User Interface (UI)"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

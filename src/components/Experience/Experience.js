@@ -8,12 +8,12 @@ function Experience() {
   return (
     <div className="experience" id='experience'>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>3+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>5+</div>
         <span style={{color: darkMode?'white':''}}>years</span>
         <span>Experience</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>15+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>30+</div>
         <span style={{color: darkMode?'white':''}}>Completed</span>
         <span>Projects</span>
       </div>
